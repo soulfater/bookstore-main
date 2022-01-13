@@ -1,0 +1,65 @@
+main {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100vw;
+}
+
+.login-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 90vw;
+    padding: 1rem;
+    margin: 0 9rem 0 3rem;
+    border-radius: 10px;
+    background: #201c29;
+    color:#fff;
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-heading {
+    font-size: 36px;
+    margin-bottom: 2rem;
+}
+
+.login-header {
+    font-size: 28px;
+}
+
+.login-input {
+    width: 30%;
+    border-style: none;
+    padding: 0 1rem 0 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    height: 2.5rem;
+    border-radius: 10px;
+}
+
+.submit-button {
+    border-style: none;
+    width: 7.5rem;
+    height: 3rem; 
+    padding: 1rem;
+    margin: 0 0 3rem 12rem;
+    background: #201c29;
+    font-size: 28px;
+    font-weight: medium;
+    color:#fff;
+}
+
+.submit-button:hover{
+    cursor: pointer;
+    background: linear-gradient(130deg, #ff7a18,#e52e71);
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
